@@ -1,2 +1,2 @@
-# All-Stone-Architecture
+# All Stone Architecture
 web Front-end
