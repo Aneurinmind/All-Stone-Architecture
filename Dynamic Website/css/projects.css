@@ -1,0 +1,422 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+	overflow:scroll;
+	overflow-x:hidden; 
+}
+
+@font-face {
+	font-family:'headfont';
+	src: url('GEETYPE.ttf');
+}
+
+@font-face {
+	font-family:'newsfont';
+	src: url('JiZiJing.ttf');
+}
+
+.struct{
+	width:1210px; 
+	height:650px;
+	margin: 0 auto;
+	/* background-color: #cececc; */
+	background-image: url(../img/company.jpg);
+	/* background-size: 1210px 800px; */
+	background-size: 1210px 650px;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.navigation{
+	margin: 0 auto;
+	width: 1210px;
+	height: 60px;
+	background:rgb(74,74,72,0.8);
+	position:fixed;
+	z-index:99;
+	top:0;
+}
+
+.logo{
+	width:50px;
+	height: 60px;
+	display: inline;
+	margin-left: 50px;
+	padding-top: 10px;
+	float: left;
+}
+
+.nav{
+	width: 900px;
+    height: 60px;
+	margin-left: 55px;
+	display: inline-block;
+	text-align: center;
+}
+
+.nav ul{
+	display: inline;
+	margin: 0 auto;
+}
+
+.nav ul li{
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	line-height: 60px;
+	color: white;
+	font-size: 15px;
+	font-weight: 500;
+	list-style: none;
+}
+
+.nav ul li a{
+	color: white;
+	text-decoration: underline;
+}
+
+.project1{
+	width: 135px;
+	height: 116px;
+	display: inline;
+	position: absolute;
+	margin-left: 476px;
+	margin-top: 81px;
+	background-image: url(../img/stage.jpg);
+	background-size: cover;
+}
+
+.project1 a{
+	visibility: hidden;
+	display: block;
+	width: 100%;
+	height: 116px;
+	padding-top: 25px;
+	background-color: rgba(0,0,0,.5);
+	color: #FFF;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.project1 a p{
+	text-align: center;
+	line-height: 12px;
+	
+}
+
+.project1:hover a{
+	visibility: visible;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+
+.project2{
+	width: 135px;
+	height: 116px;
+	display: inline;
+	position: absolute;
+	margin-left: 621px;
+	margin-top: 217px;
+	color: #FFFFFF;
+	background-image: url(../img/theater.jpg);
+	background-size: cover;
+}
+
+.project2 a{
+	visibility: hidden;
+	display: block;
+	width: 100%;
+	height: 116px;
+	padding-top: 25px;
+	background-color: rgba(0,0,0,.5);
+	color: #FFF;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.project2 a p{
+	text-align: center;
+	line-height: 12px;
+	
+}
+
+.project2:hover a{
+	visibility: visible;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.project3{
+	width: 135px;
+	height: 115px;
+	display: inline;
+	position: absolute;
+	background-color: rgba(0,0,0,0.7);
+	margin-left: 477px;
+	margin-top: 354px;
+	color: #FFFFFF;
+	background-image: url(../img/college.jpg);
+	background-size: cover;
+}
+
+.project3 a{
+	visibility: hidden;
+	display: block;
+	width: 100%;
+	height: 116px;
+	padding-top: 25px;
+	background-color: rgba(0,0,0,.5);
+	color: #FFF;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.project3 a p{
+	text-align: center;
+	line-height: 12px;
+	
+}
+
+.project3:hover a{
+	visibility: visible;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.project4{
+	width: 138px;
+	height: 117px;
+	position: absolute;
+	display: inline;
+	margin-left: 325px;
+	margin-top: 217px;
+	color: #FFFFFF;
+	background-image: url(../img/library.jpg);
+	background-size: cover;
+}
+
+.project4 a{
+	visibility: hidden;
+	display: block;
+	width: 100%;
+	height: 116px;
+	padding-top: 25px;
+	background-color: rgba(0,0,0,.5);
+	color: #FFF;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.project4 a p{
+	text-align: center;
+	line-height: 12px;
+	
+}
+
+.project4:hover a{
+	visibility: visible;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.project5{
+	width: 140px;
+	height: 120px;
+	display: inline;
+	position: absolute;
+	margin-left: 770px;
+	margin-top: 80px;
+	color: #FFFFFF;
+	background-image: url(../img/gallery.jpg);
+	background-size: cover;
+}
+
+.project5 a{
+	visibility: hidden;
+	display: block;
+	width: 100%;
+	height: 116px;
+	padding-top: 25px;
+	background-color: rgba(0,0,0,.5);
+	color: #FFF;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.project5 a p{
+	text-align: center;
+	line-height: 12px;
+	
+}
+
+.project5:hover a{
+	visibility: visible;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.project6{
+	width: 139px;
+	height: 115px;
+	display: inline;
+	position: absolute;
+	margin-left: 768px;
+	margin-top: 352px;
+	color: #FFFFFF;
+	background-image: url(../img/hotel.jpg);
+	background-size: cover;
+}
+
+.project6 a{
+	visibility: hidden;
+	display: block;
+	width: 100%;
+	height: 116px;
+	padding-top: 25px;
+	background-color: rgba(0,0,0,.5);
+	color: #FFF;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.project6 a p{
+	text-align: center;
+	line-height: 12px;
+	
+}
+
+.project6:hover a{
+	visibility: visible;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.project7{
+	width: 138px;
+	height: 112px;
+	display: inline;
+	position: absolute;
+	margin-left: 403px;
+	margin-top: 492px;
+	color: #FFFFFF;
+	background-image: url(../img/Mars.jpg);
+	background-size: cover;
+}
+
+.project7 a{
+	visibility: hidden;
+	display: block;
+	width: 100%;
+	height: 116px;
+	padding-top: 25px;
+	background-color: rgba(0,0,0,.5);
+	color: #FFF;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.project7 a p{
+	text-align: center;
+	line-height: 12px;
+	
+}
+
+.project7:hover a{
+	visibility: visible;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.kinds{
+	width: 100px;
+	height: 140px;
+	color: whitesmoke;
+	position: absolute;
+	margin-top: 190px;
+	margin-left: 70px;
+	font-family: newsfont;
+	font-weight: 600;
+}
+
+.kinds a{
+	color: whitesmoke;
+}
+
+.kind1:hover a{
+	text-decoration: none;
+	color: #5bae23;
+}
+
+.kind2:hover a{
+	text-decoration: none;
+	color: #5bae23;
+}
+
+.kind3:hover a{
+	text-decoration: none;
+	color: #5bae23;
+}
+
+.kind4:hover a{
+	text-decoration: none;
+	color: #5bae23;
+}
+
+.kind5:hover a{
+	text-decoration: none;
+	color: #5bae23;
+}
+
+.kind6:hover a{
+	text-decoration: none;
+	color: #5bae23;
+}
+
+.kind7:hover a{
+	text-decoration: none;
+	color: #5bae23;
+}
+
+.kindbar{
+	width: 2px;
+	height: 230px;
+	background-color: lightgray;
+	position: absolute;
+	margin-top: 189px;
+	margin-left: 120px;
+}
+
+.invitation{
+	position: absolute;
+	margin-top: 410px;
+}
+
+.paper{
+	font-family: headfont;
+	margin-top:515px;
+	margin-left: 57px;
+	width:125px;
+	height:90px;
+	position: absolute;
+	background-color:rgba(0,0,0,0.7);
+	/* Rotate div */
+	transform:rotate(28deg);
+	-ms-transform:rotate(28deg); /* Internet Explorer */
+	-moz-transform:rotate(28deg); /* Firefox */
+	-webkit-transform:rotate(28deg); /* Safari 和 Chrome */
+	-o-transform:rotate(28deg); /* Opera */
+	color: whitesmoke;
+}
+
+.paper a{
+	color: whitesmoke;
+}
+
+.paper:hover a{
+	text-decoration: none;
+	color: #5bae23;
+}

@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+	overflow:scroll;
+	overflow-x:hidden; 
+}
+
+@font-face {
+	font-family:'headfont';
+	src: url('GEETYPE.ttf');
+}
+
+@font-face {
+	font-family:'newsfont';
+	src: url('JiZiJing.ttf');
+}
+
+.date{
+	font-family: headfont;
+	font-weight: 1000;
+}
+
+.struct{
+	width:1210px; 
+	height:650px;
+	margin: 0 auto;
+	background-image: url(../img/whitewall.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.navigation{
+	margin: 0 auto;
+	width: 1210px;
+	height: 60px;
+	background:rgb(74,74,72,0.8);
+	position:fixed;
+	z-index:99;
+	top:0;
+}
+
+.logo{
+	width:50px;
+	height: 60px;
+	display: inline;
+	margin-left: 50px;
+	padding-top: 10px;
+	float: left;
+}
+
+.nav{
+	width: 900px;
+    height: 60px;
+	margin-left: 55px;
+	display: inline-block;
+	text-align: center;
+}
+
+.nav ul{
+	display: inline;
+	margin: 0 auto;
+}
+
+.nav ul li{
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	line-height: 60px;
+	color: white;
+	font-size: 15px;
+	font-weight: 500;
+	list-style: none;
+}
+
+.nav ul li a{
+	color: white;
+	text-decoration: underline;
+}
+
+.bar{
+	width: 100px;
+	height: 6px;
+	background-color: gray;
+}
+
+.date{
+	width: 120px;
+	height: 80px;
+	margin-top: 100px;
+	margin-left: 50px;
+	position: absolute;
+	font-size: 20px;
+}
+
+.n1{
+	width: 500px;
+	height: 400px;
+	margin-top:170px ;
+	margin-left: 50px;
+	position: absolute;
+	display: inline-block;
+	color: white;
+}
+
+.n1-content{
+	width: 300px;
+	height: 120px;
+	background-color: rgba(0,0,0,0.6); 
+	display: inline-block;
+	margin-left: 150px;
+	margin-top: -200px;
+	padding: 6px;
+	font-family: newsfont;
+}
+
+.n2{
+	width: 500px;
+	height: 400px;
+	margin-top:170px ;
+	margin-left: 680px;
+	position: absolute;
+	display: inline-block;
+	color: white;
+}
+
+.n2-content{
+	width: 300px;
+	height: 120px;
+	background-color: rgba(0,0,0,0.6); 
+	padding: 6px;
+	position: absolute;
+	font-family: newsfont;
+}
+
+.n2-image{
+	width: 400px;
+	height: 300px;
+	margin-top: 100px;
+	margin-left: 70px;
+}
